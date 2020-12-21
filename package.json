@@ -2,17 +2,21 @@
     "name": "gitconfig",
     "displayName": "Gitconfig Syntax",
     "description": "Adds syntax highlighting support for Git config files",
-    "version": "2.0.1",
+    "version": "2.1.1",
     "publisher": "sidneys1",
+    "main": "./src/extension",
     "repository": {
         "type": "git",
         "url": "https://github.com/Sidneys1/GitConfigVSCode.git"
     },
     "engines": {
-        "vscode": "^1.5.0"
+        "vscode": "^1.25.0"
     },
     "categories": [
         "Programming Languages"
+    ],
+    "activationEvents": [
+		"onLanguage:gitconfig"
     ],
     "contributes": {
         "languages": [
@@ -35,7 +39,7 @@
             {
                 "language": "gitconfig",
                 "scopeName": "text.gitconfig",
-                "path": "./syntaxes/Gitconfig.tmLanguage"
+                "path": "./syntaxes/Gitconfig.json"
             }
         ]
     }

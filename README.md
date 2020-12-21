@@ -5,7 +5,9 @@ I claim no rights nor ownership
 
 ## Features
 
-Syntax highlighting for `.gitconfig`, `.gitattributes`, and `.gitmodules` files.
+Syntax highlighting and basic programmatic language features for `.gitconfig`, `.gitattributes`, and `.gitmodules` files.
+
+Programmatic language features use implementation from [Ini for VSCode extension (`DavidWang.ini-for-vscode`)](https://github.com/DavidWang88/ini-for-vscode)
 
 ## Release Notes
 
